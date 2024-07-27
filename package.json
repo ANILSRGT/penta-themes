@@ -1,0 +1,38 @@
+{
+  "name": "penta-themes",
+  "displayName": "Penta Themes",
+  "description": "Penta Themes for Visual Studio Code",
+  "publisher": "ANILSRGT",
+  "icon": "assets/images/icon.png",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANILSRGT/penta-themes"
+  },
+  "homepage": "https://github.com/ANILSRGT/penta-themes",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "light theme",
+    "dark theme",
+    "penta",
+    "penta themes",
+    "penta themes light",
+    "penta themes dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Penta Themes Light - Dark Side",
+        "uiTheme": "vs",
+        "path": "./themes/penta-themes-light-dark-side.json"
+      }
+    ]
+  }
+}
